@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(207, 207, 207);
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    /* display: grid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+
+header {
+    /* grid-row: 1 / span 3; */
+    back
+    color: white;
+}    
+
+main {
+    background-color: red;
+    border-radius: 20px;
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.mid {
+    background-color: white;
+}
+
+#bottom {
+    background: red;
+}
